@@ -8,8 +8,8 @@ function Hero() {
             <Navbar />
             <div className='mt-[24px] md:flex flex-row-reverse md:mr-[80px] md:mt-[67px] xl:mr-[130px] md:ml-[100px] xl:ml-[165px] md:mb-[130px] md:gap-x-[80px] xl:gap-x-[125px] items-center'>
                 <picture >
-                    <source srcSet='/images/image-hero-desktop.png' media='(min-width:768px)'></source>
-                    <img src='/images/image-hero-mobile.png'
+                    <source srcSet='./images/image-hero-desktop.png' media='(min-width:768px)'></source>
+                    <img src='./images/image-hero-mobile.png'
                         alt='hero image'
                     >
                     </img>
