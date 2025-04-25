@@ -21,10 +21,10 @@ function Hero() {
                         <button className='bg-black text-[#FAFAFA] w-[136px] h-[48px] rounded-[15px] font-bold text-[16px] hover:bg-white hover:text-black hover:border-[1.5px] hover:border-black hover:cursor-pointer leading-[26px] tracking-[-0.22px] mt-[24px] md:mt-[54px]'>Learn more</button>
                     </div>
                     <div className='flex flex-wrap items-center justify-between  mt-[48px]  md:mt-[108px] mx-[10px] md:mx-0 '>
-                        <img className='max-w-[80px] md:max-w-[113px] h-auto ' src='/images/client-databiz.svg' alt='databiz icon'></img>
-                        <img className='max-w-[53px] md:max-w-[73px] h-auto ' src='/images/client-audiophile.svg' alt='audiophile icon'></img>
-                        <img className='max-w-[64px] md:max-w-[90px] h-auto ' src='/images/client-meet.svg' alt='meet icon'></img>
-                        <img className='max-w-[60px] md:max-w-[82px] h-auto ' src='/images/client-maker.svg' alt='maker icon'></img>
+                        <img className='max-w-[80px] md:max-w-[113px] h-auto ' src='./images/client-databiz.svg' alt='databiz icon'></img>
+                        <img className='max-w-[53px] md:max-w-[73px] h-auto ' src='./images/client-audiophile.svg' alt='audiophile icon'></img>
+                        <img className='max-w-[64px] md:max-w-[90px] h-auto ' src='./images/client-meet.svg' alt='meet icon'></img>
+                        <img className='max-w-[60px] md:max-w-[82px] h-auto ' src='./images/client-maker.svg' alt='maker icon'></img>
                     </div>
 
                 </div>
