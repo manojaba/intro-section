@@ -10,7 +10,7 @@ function Navbar() {
         <div className='md:flex items-center mx-[16px] md:mx-[40px] md:mt-[24px] mt-[16px] justify-between font-medium text-[14px] leading-[16px] relative text-[#686868]' >
             <div className='flex justify-between   items-center md:gap-[60px]' >
                 <img src='./images/logo.svg' alt='icon-image'></img>
-                <button onClick={() => setMenu(!menu)} className='md:hidden hover:cursor-pointer'>  <img src='/images/icon-menu.svg' alt='menu icon image'></img></button>
+                <button onClick={() => setMenu(!menu)} className='md:hidden hover:cursor-pointer'>  <img src='./images/icon-menu.svg' alt='menu icon image'></img></button>
                 <ul className=' hidden md:flex gap-[40px] '>
                     <li ><button className='flex items-center gap-[9px] hover:cursor-pointer  hover:text-black  ' onClick={() => setFeatures(!features)}>Features {features ? <img src='./images/icon-arrow-down.svg' alt='arrow-down image' ></img> : <img src='./images/icon-arrow-up.svg' alt='arrow up icon' className=''></img>}</button> </li>
                     <li ><button className='flex items-center gap-[9px] hover:cursor-pointer  hover:text-black  ' onClick={() => setCompany(!company)} >Company {company ? <img src='./images/icon-arrow-down.svg' alt='arrow-down image' ></img> : <img src='./images/icon-arrow-up.svg' alt='arrow up icon' className=''></img>}</button> </li>
